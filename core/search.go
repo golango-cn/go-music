@@ -111,8 +111,8 @@ func DownLoad(song *Songs, dir string) (string, error) {
 	url := fmt.Sprintf("http://mp34.butterfly.mopaasapp.com/?v=%s", song.Md5)
 
 	cookie := &http.Cookie{
-		Name:    "x09",
-		Value:   "x09",
+		Name:    "x08",
+		Value:   "x08",
 		Expires: time.Now().Add(time.Second * 3600),
 	}
 
